@@ -1,0 +1,24 @@
+.Deck-cards {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Card {
+    border: 2px solid purple;
+    background-color: rgb(47, 199, 123);
+}
+
+.Card-value {
+    color: red;
+}
+
+Button {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background-color: greenyellow;
+}

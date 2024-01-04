@@ -1,11 +1,16 @@
 import React from "react";
 
-// Card Component props: face value, image
-const Card = ({ value, img }) => {
-  console.log("rendered CARD");
+// Simple Card Component props: face value, image, id
+const Card = ({ value, img, id }) => {
   return (
-    <div>
-      <p>{value}</p>
+    <div
+      id={id}
+      className='Card'>
+      <p
+        className='Card-value'
+        id={`${value}`}>
+        {value}
+      </p>
       <img
         src={img}
         alt='playing card'
