@@ -1,3 +1,59 @@
+Button.draw {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background-color: whitesmoke;
+}
+
+Button.draw:hover {
+    position: fixed;
+    color: white;
+    bottom: 50px;
+    left: 50px;
+    background-color: darkgreen;
+}
+
+Button.reset {
+    position: fixed;
+    bottom: 50px;
+    left: 200px;
+    background-color: rgb(0, 221, 255);
+}
+
+Button.reset:hover {
+    position: fixed;
+    color: white;
+    bottom: 50px;
+    left: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+Button.shuffle {
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+    background-color: lightgreen;
+}
+
+Button.shuffle:hover {
+    position: fixed;
+    color: white;
+    bottom: 50px;
+    left: 100px;
+    background-color: yellowgreen;
+}
+
+.Card {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.Card-value {
+    color: rgb(255, 255, 255);
+
+}
+
 .Deck-cards {
     background-color: black;
     display: flex;
@@ -5,20 +61,4 @@
     height: 100vh;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.Card {
-    border: 2px solid purple;
-    background-color: rgb(47, 199, 123);
-}
-
-.Card-value {
-    color: red;
-}
-
-Button {
-    position: fixed;
-    bottom: 50px;
-    left: 50px;
-    background-color: greenyellow;
 }

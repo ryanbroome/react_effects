@@ -1,16 +1,16 @@
 import React from "react";
 
-// Simple Card Component props: face value, image, id
-const Card = ({ value, img, id }) => {
+// render Card div element with cardStyle, id, and img src address
+const Card = ({ img, id, remaining }) => {
+  const cardStyle = {
+    zIndex: remaining,
+  };
+
   return (
     <div
       id={id}
-      className='Card'>
-      <p
-        className='Card-value'
-        id={`${value}`}>
-        {value}
-      </p>
+      className='Card'
+      style={cardStyle}>
       <img
         src={img}
         alt='playing card'
